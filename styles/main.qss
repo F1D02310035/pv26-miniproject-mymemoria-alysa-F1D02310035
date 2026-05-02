@@ -1,0 +1,164 @@
+QMainWindow, QWidget {
+    background-color: #fdf2fa;
+    font-family: "Segoe UI";
+    font-size: 10pt;
+}
+
+/* LABEL */
+QLabel {
+    color: #5a3d4a;
+    font-family: "Segoe UI";
+}
+
+QMainWindow QLabel {
+    font-size: 10pt;
+}
+
+QDialog QLabel {
+    font-size: 9pt;
+    color: #6b5b63;
+}
+
+/* TABLE */
+QTableWidget {
+    background-color: #fff0f6;
+    border: 1px solid #ffd1e0;
+    border-radius: 12px;
+    gridline-color: #ffe5f1;
+    outline: none;
+}
+
+QTableWidget::item {
+    padding: 8px 12px;
+    color: #553d5e;
+    font-size: 10pt;
+    background-color: transparent;
+}
+
+QTableWidget::item:hover {
+    background-color: #ffe3ee;
+}
+
+QTableWidget::item:selected {
+    background-color: #ffb6d5;
+    color: #7a1f4b;
+}
+
+QTableWidget QAbstractItemView {
+    outline: none;
+}
+
+/* BUTTON */
+QPushButton {
+    background-color: #ffa7c4;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #ff7bab;
+}
+
+QPushButton#btn_hapus {
+    background-color: #ff477e;
+}
+
+QPushButton#btn_hapus:hover {
+    background-color: #ff1744;
+}
+
+/* MENU BAR */
+QMenuBar {
+    background-color: #fdf2fa;
+}
+
+QMenuBar::item {
+    padding: 6px 10px;
+    color: #333;
+}
+
+QMenuBar::item:selected {
+    background-color: #ffa7c4;
+}
+
+/* MENU DROPDOWN */
+QMenu {
+    background-color: #fff0f6;
+    border: 1px solid #ffd1e0;
+}
+
+QMenu::item {
+    padding: 8px 20px;
+    color: #333;
+}
+
+QMenu::item:selected {
+    background-color: #ffa7c4;
+}
+
+/* MESSAGE BOX */
+QMessageBox {
+    background-color: #fdf2fa;
+    font-family: "Segoe UI";
+}
+
+QMessageBox QLabel {
+    font-size: 10pt;
+    color: #553d5e;
+    padding: 10px;
+}
+
+QMessageBox QPushButton {
+    background-color: #ffa7c4;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+/* CALENDAR */
+QCalendarWidget QWidget#qt_calendar_navigationbar {
+    background-color: #fdf2fa;
+}
+
+QCalendarWidget QToolButton {
+    color: #ff1493;
+    font-weight: bold;
+}
+
+QCalendarWidget QAbstractItemView {
+    selection-background-color: #ff1493;
+    selection-color: white;
+}
+
+/* DATE EDIT */
+QDateEdit {
+    font-family: "Segoe UI";
+    font-size: 10pt;
+    padding: 4px;
+}
+
+/* ABOUT DIALOG */
+#about_title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff7bab;
+}
+
+#about_desc {
+    font-size: 10pt;
+    color: #555;
+    padding: 5px;
+}
+
+#about_identity {
+    font-size: 10pt;
+    font-weight: bold;
+    color: #333;
+}
+
+#about_author {
+    font-size: 9pt;
+    color: #777;
+}
